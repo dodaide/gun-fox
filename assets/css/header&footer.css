@@ -1,0 +1,71 @@
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 28px;
+    margin: 0px;
+}
+.navbar_container{
+    background: url(/assets/images/bg-header_2.png) no-repeat;
+    background-size: contain;
+    height: 120px;
+}
+.nav_item{
+    list-style: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+    width: 140px;
+    height: 60px;
+    text-align: center;
+}
+.nav_home{
+    width: 150px;
+}
+.nav_link{
+    color: white;
+    line-height: 60px;
+}
+footer{
+    margin-top: 200px;
+    background: url(/assets/images/bg_footer.png) no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    background-position-x: right;
+    position: relative;
+}
+#bingo{
+    position: absolute;
+    width: 250px;
+    right: 220px;
+    top: -150px;
+}
+#logo{
+    width: 250px;
+    margin-bottom: 20px;
+}
+#logo_vng{
+    width: 100%;
+}
+.company_name{
+    margin: 0px;
+}
+.company_description{
+    margin-top: 8px;
+    font-weight: 300;
+}
+.contact_title{
+    text-align: center;
+    margin-top: 0px;
+}
+.contact_logo{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.footer_content{
+    padding: 200px 0px 50px 0px;
+}

@@ -1,0 +1,45 @@
+*{
+    box-sizing: inherit;
+    color: white;
+}
+
+:root{
+}
+
+html{
+    font-size: 100%;
+    font-family: 'Signika', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    color: var(--text-color);
+}
+
+body{
+    margin: 0px;
+    overflow-x: hidden;
+    color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+a{
+    text-decoration: none;
+}
