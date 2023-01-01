@@ -23,7 +23,7 @@
                         </a>
                     </li>
                     <li class="nav_item">
-                        <a href="" class="nav_link">
+                        <a href="/pages/tintuc" class="nav_link">
                             Tin tức
                         </a>
                     </li>
@@ -33,7 +33,7 @@
                         </a>
                     </li>
                     <li class="nav_item">
-                        <a href="" class="nav_link">
+                        <a href="/" class="nav_link">
                             <img class="nav_home" src="/assets/images/home.png" />
                         </a>
                     </li>
@@ -43,7 +43,7 @@
                         </a>
                     </li>
                     <li class="nav_item">
-                        <a href="" class="nav_link">
+                        <a href="/pages/thuvien" class="nav_link">
                             Thư viện
                         </a>
                     </li>
@@ -96,11 +96,12 @@
             <div class="news_content row">
                 <div class="col l-6 m-6 c-12">
                     <div class="background_video">
-                        <img src="/assets/images/solo-gunny.png"/>
+                        <img class="mySlides" src="/assets/images/solo-gunny.png"/>
+                        <img class="mySlides" src="/assets/images/library_main.jpg"/>
                     </div>
                     <div class="dot_container">
-                        <span class="dot"></span>
-                        <span class="dot dot_active"></span>
+                        <span class="dotSlide dot_active"></span>
+                        <span class="dotSlide"></span>
                     </div>
                     <div class="news_name">
                         Sự kiện Black Friday - HOT 
@@ -193,47 +194,68 @@
                 </h3>
             </div>
             <div class="row">
-                <div class="col l-2 m-2 c-4">
+                <div class="col l-2 m-2 c-3">
                     <h2 class="library_filter library_filter_active">
                         Tất cả
                     </h2>
                 </div>
-                <div class="col l-2 m-2 c-4">
+                <div class="col l-2 m-2 c-3">
                     <h2 class="library_filter">
                         Hình nền
                     </h2>
                 </div>
-                <div class="col l-2 m-2 c-4">
+                <div class="col l-2 m-2 c-3">
                     <h2 class="library_filter">
                         Hình game
                     </h2>
                 </div>
-                <div class="col l-2 m-2 c-4">
-                </div>
-                <div class="col l-2 m-2 c-4">
-                </div>
-                <div class="col l-2 m-2 c-4">
+                <div class="col l-6 m-6 c-3">
                     <img class="add_btn" src="/assets/images/add.png" alt="">
                 </div>
             </div>
-            <div class="row">
-                <div class="col library_img_container l-6 m-6 c-12">
-                    <img class="library_img" src="/assets/images/library_main.jpg" alt="">
+            <div class="library" style="display: block;">
+                <div class="row">
+                    <div class="col library_img_container l-6 m-6 c-12">
+                        <img class="library_img" src="/assets/images/library_main.jpg" alt="">
+                    </div>
+                    <div class="col l-6 m-6 c-12">
+                        <div class="row">
+                            <div class="col library_img_container l-6 m-6 c-6">
+                                <img class="library_img" src="/assets/images/Wall5_1280x1024.jpg" alt="">
+                            </div>
+                            <div class="col library_img_container l-6 m-6 c-6">
+                                <img class="library_img" src="/assets/images/wallpaper.jpg" alt="">
+                            </div>
+                            <div class="col library_img_container l-6 m-6 c-6">
+                                <img class="library_img" src="/assets/images/WallT4-1.jpg" alt="">
+                            </div>
+                            <div class="col library_img_container l-6 m-6 c-6">
+                                <img class="library_img" src="/assets/images/WallT4-2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col l-6 m-6 c-12">
-                    <div class="row">
-                        <div class="col library_img_container l-6 m-6 c-6">
-                            <img class="library_img" src="/assets/images/Wall5_1280x1024.jpg" alt="">
-                        </div>
-                        <div class="col library_img_container l-6 m-6 c-6">
-                            <img class="library_img" src="/assets/images/wallpaper.jpg" alt="">
-                        </div>
-                        <div class="col library_img_container l-6 m-6 c-6">
-                            <img class="library_img" src="/assets/images/WallT4-1.jpg" alt="">
-                        </div>
-                        <div class="col library_img_container l-6 m-6 c-6">
-                            <img class="library_img" src="/assets/images/WallT4-2.jpg" alt="">
-                        </div>
+            </div>
+            <div class="library">
+                <div class="row">
+                    <div class="col library_img_container l-12 m-12 c-12">
+                        <img class="library_img" src="/assets/images/library_main.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="library">
+                <div class="row">
+                    <div class="col library_img_container l-3 m-6 c-6">
+                        <img class="library_img" src="/assets/images/Wall5_1280x1024.jpg" alt="">
+                    </div>
+                    <div class="col library_img_container l-3 m-6 c-6">
+                        <img class="library_img" src="/assets/images/wallpaper.jpg" alt="">
+                    </div>
+                    <div class="col library_img_container l-3 m-6 c-6">
+                        <img class="library_img" src="/assets/images/WallT4-1.jpg" alt="">
+                    </div>
+                    <div class="col library_img_container l-3 m-6 c-6">
+                        <img class="library_img" src="/assets/images/WallT4-2.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -282,6 +304,12 @@
             </div>
         </footer>
     </div>
-
+    <div id="modal">
+        <img class="modal_img" src="" alt="">
+        <iconify-icon class="modal_close icon" icon="material-symbols:close-rounded"></iconify-icon>
+    </div>
 </body>
+<script src="/assets/scripts/slide.js"></script>
+<script src="/assets/scripts/changeWeapon.js"></script>
+<script src="/assets/scripts/library.js"></script>
 </html>

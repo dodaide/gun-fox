@@ -1,0 +1,34 @@
+.weapon_library{
+    position: unset;
+}
+.library_img_container img{
+    border: 4px solid #00A6CC;
+}
+.library_img_container{
+    position: relative;
+}
+.library_img_container .icon{
+    pointer-events: none;
+    font-size: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.library_img{
+    height: 250px;
+}
+.library_video{
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    height: 250px;
+}
+.modal_video{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
