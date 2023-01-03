@@ -157,7 +157,7 @@
     align-self: center;
 }
 .background_video{
-    background: url(/assets/images/bg-video.png) no-repeat;
+    background: url(/gun-fox/assets/images/bg-video.png) no-repeat;
     background-size: 100%;
     background-position-y: 6px;
     padding: 22px;
