@@ -28,6 +28,9 @@
     font-size: 1.5rem;
     line-height: 60px;
 }
+.nav_link_active{
+    color: #fbb287;
+}
 .nav_link:hover{
     color: #64e4e4;
 }
