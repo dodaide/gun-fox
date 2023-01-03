@@ -10,7 +10,7 @@
     margin: 0px;
 }
 .navbar_container{
-    background: url(/gun-fox/assets/images/bg-header_2.png) no-repeat;
+    background: url(../images/bg-header_2.png) no-repeat;
     background-size: contain;
     height: 120px;
 }
@@ -36,7 +36,7 @@
 }
 footer{
     margin-top: 200px;
-    background: url(/gun-fox/assets/images/bg_footer.png) no-repeat;
+    background: url(../images/bg_footer.png) no-repeat;
     background-size: cover;
     background-position-y: bottom;
     background-position-x: right;
