@@ -84,12 +84,14 @@
     bottom: -80px;
     left: -30px;
     position: absolute;
+    z-index: 5;
 }
 #pig{
     width: 200px;
     bottom: -80px;
     right: -55px;
     position: absolute;
+    z-index: 5;
 }
 .hot_news{
     background: url(/assets/images/trang_chu_background_3.png) no-repeat;
