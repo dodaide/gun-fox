@@ -1,5 +1,5 @@
 .intro1{
-    background: url(./assets/images/bg-body1.png) no-repeat;
+    background: url(../../../assets/images/bg-body1.png) no-repeat;
     background-size:cover;
     position: relative;
 }
@@ -18,7 +18,7 @@
     font-size: 20px;
 }
 .infor_detail_title{
-    background: url(./assets/images/background_weapon.png) no-repeat;
+    background: url(../../../assets/images/background_weapon.png) no-repeat;
     background-size: 100%;
     height: 80px;
     width: 500px;
@@ -119,7 +119,7 @@
     padding: 12px;
 }
 .last_diff_1text{
-    background: url(./assets/images/guildA.png) no-repeat;
+    background: url(../../../assets/images/guildA.png) no-repeat;
     background-color: rgba(0, 0, 0, 0.695);
     background-blend-mode:overlay;
     background-size: 350px;
@@ -133,7 +133,7 @@
     padding-right:65px ;
 }
 .last_diff_1text--B{
-    background: url(./assets/images/guildB.png) no-repeat;
+    background: url(../../../assets/images/guildB.png) no-repeat;
     background-color: rgba(0, 0, 0, 0.695);
     background-blend-mode:overlay;
     background-size: 350px;
@@ -147,7 +147,7 @@
     padding-right:65px ;
 }
 .last_diff_1text--C{
-    background: url(./assets/images/guildC.png) no-repeat;
+    background: url(../../../assets/images/guildC.png) no-repeat;
     background-color: rgba(0, 0, 0, 0.695);
     background-blend-mode:overlay;
     background-size: 350px;
