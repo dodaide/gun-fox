@@ -1,5 +1,5 @@
 .intro1{
-    background: url(/assets/images/bg-body1.png) no-repeat;
+    background: url(./assets/images/bg-body1.png) no-repeat;
     background-size:cover;
     position: relative;
 }
@@ -78,7 +78,7 @@
     cursor: pointer;
 }
 #chitiet{
-    background: url(/assets/images/bg-btn-blue-hover.png) no-repeat;
+    background: url(./assets/images/bg-btn-blue-hover.png) no-repeat;
     background-size:140px;
 }
 .btn_chitiet:hover{
@@ -176,7 +176,7 @@
     font-size: 18px;
 }
 #chevron{
-    background: url(/assets/images/27.png) no-repeat;
+    background: url(./assets/images/27.png) no-repeat;
     background-size:40px;
 }
 .btn_chevron:hover{
