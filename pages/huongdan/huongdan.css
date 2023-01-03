@@ -1,5 +1,5 @@
 .noidung{
-    background: url(./assets/images/bg-body1.png) no-repeat;
+    background: url(../../assets/images/bg-body1.png) no-repeat;
     background-size: cover;
     background-position-x: 49%;
 }
@@ -10,7 +10,7 @@
     font-size: 30px;
 }
 .ten_tieude{
-    background: url(./assets/images/bg-txt.png) no-repeat;
+    background: url(../../assets/images/bg-txt.png) no-repeat;
     background-size: contain;
     height: 90px;
     width:500px;
