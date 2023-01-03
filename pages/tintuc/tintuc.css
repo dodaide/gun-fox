@@ -2,7 +2,7 @@
     margin: 60px 0px;
 }
 .news_title{
-    background: url(./assets/images/bg-txt.png) no-repeat;
+    background: url(../../assets/images/bg-txt.png) no-repeat;
     background-size: contain;
     background-position-x: center;
     font-size: 36px;
