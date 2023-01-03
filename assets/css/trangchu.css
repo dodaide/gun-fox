@@ -1,5 +1,6 @@
 .introduce{
     background: url(../images/trang_chu_background_1.jpg) no-repeat;
+    background-position: bottom;
     background-size: cover;
     position: relative;
 }
