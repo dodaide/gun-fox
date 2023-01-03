@@ -43,7 +43,7 @@
 }
 
 .info {
-    background: url(./assets/images/bg-body1.png) no-repeat;
+    background: url(../../assets/images/bg-body1.png) no-repeat;
     background-size: cover;
     height: max-content;
 }
@@ -56,7 +56,7 @@
 }
 
 .info_title {
-    background: url(./assets/images/bg-txt.png) no-repeat;
+    background: url(../../assets/images/bg-txt.png) no-repeat;
     background-size: 700px 80px;
     background-position: center;
     margin: 46px auto;
